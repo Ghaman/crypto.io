@@ -1,0 +1,171 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.navbar{
+    height: 100vh;
+    font-size: 2rem;
+    transition: all 0.6s;
+}
+.nav-list{
+    flex-direction: column;
+}
+.logo{
+    margin: 60px 80px;
+    width: 20vw;
+}
+.logo img{
+    height: 10vh;
+    width: 20vw;
+}
+.navbar ul li{
+    padding:40px;
+    font-size: 3rem;
+    
+}
+.background{
+    background: rgba(0,0,0,0.7) url(background.jpg);
+    background-size: cover;
+/*    background-position: center;*/
+    background-blend-mode: darken;
+}
+.bac{
+        background: rgba(0,0,0,0.7) url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+/*///////////////////////burger//////*/
+
+.burger{
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.line{
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    margin: 5px 5px;
+}
+
+.h-nav{
+    height: 150px;
+}
+
+.v-class{
+    opacity: 0;
+}
+
+/*/////////////////////section 1st /////////////*/
+
+.firstsection{
+    flex-direction: column;
+}
+
+.firstsection h1{
+    font-size: 4rem;
+}
+.firstsection p{
+    height: 30px;
+    font-size: 3rem;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    display: none;
+}
+
+.price{
+    display: none;
+}
+
+
+/*////////////////contract/////////*/
+
+.contract{
+    height: 30vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contract h1{
+        margin: 68px 6px;
+}
+.telg a{
+    border: 2px solid white;
+    height: 12vh;
+    width: 15vh;
+    color: white;
+    text-decoration: none;
+    padding: 28px 125px;
+    font-size: 3rem;
+}
+
+/*////////////////////section 2nd/////////*/
+.sec{
+    height: 230vh;
+}
+.blockchain{
+    text-align: center;
+    border-bottom: 3px dotted black;
+    height: 50vh;
+    font-size: 2rem;
+}
+
+.info{
+    flex-direction:column-reverse;
+}
+.logo1 img{
+    width: 40vw;
+    height:  13vh;
+}
+.info li p{
+    margin-bottom: 100px;
+}
+
+/*//////////////////bitcoin/////////*/
+
+.bit{
+    text-align: center;
+    border-bottom: 3px dotted black;
+    height: 50vh;
+    font-size: 2rem;
+}
+
+.inforev{
+    flex-direction: column-reverse;
+}
+
+.inforev li p{
+    margin-bottom: 100px;
+}
+.btnr a{
+    margin: 14vh;
+}
+
+/*/////////////////////ethereum//////*/
+
+.eth{
+    text-align: center;
+    border-bottom: 3px dotted black;
+    height: 50vh;
+    font-size: 2rem;
+}
+
+/*///////////////dapps////*/
+
+
+.dapp{
+    text-align: center;
+    border-bottom: 3px dotted black;
+    height: 50vh;
+    font-size: 2rem;
+}
+
+/*///////////////////thanks///////*/
+
+#thanks{
+    font-size: 3rem;
+}

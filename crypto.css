@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*=============navbar=========*/
+.navbar{
+    position: sticky;
+    top: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+/*====================logo=============*/
+.logo{
+    width: 15vw;
+    margin: 20px 40px;
+}
+.logo img{
+    height: 7vh;
+    width: 5vw;
+    border-radius: 30px;
+}
+/*------------------------nav------------*/
+.nav-list{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav-list li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    
+}
+.nav-list li a:hover{
+    color: black;
+    background-color:white;
+    border-radius: 20px;
+}
+/*============background-------------*/
+
+.background{
+    background: rgba(0,0,0,0.7) url(background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/*//////////////first section//////////////*/
+
+.firstsection{
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.firstsection p{
+    font-size: 2rem;
+    margin: 150px 60px;
+}
+
+.price{
+    width: 30vw;
+    text-align: left;
+        
+}
+.header{
+    font-size: 4rem;
+}
+.price ul li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.contract{
+    display: none;
+}
+
+/*///////////sction 2nd//////////*/
+
+
+.sec{
+    background-color: antiquewhite;
+    height: 170vh;
+    padding: 20px 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.sec ul li{
+    list-style: none;
+    
+}
+.blockchain{
+    padding: 20px 20px;
+    margin: 10px;
+}
+.info{
+    display: flex;
+}
+.logo1 img{
+    width: 22vw;
+    height: 22vh;
+}
+.btn{
+    margin: -9px 00px;
+    cursor: pointer;
+    border: none;
+}
+.btn a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+.btn a:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+/*/////////////////////bit////////////////*/
+
+.bit{
+    padding: 20px 20px;
+    margin: 10px;
+    margin: 100px 10px;
+}
+
+.inforev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.inforev h2{
+    margin-left: 30px;
+}
+.inforev p{
+    margin-left: 30px;
+}
+
+.btnr{
+    margin: -12px 75px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+.btnr a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+.btnr a:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.eth{
+    padding: 20px 20px;
+}
+.eth p{
+    margin-bottom: 50px;
+}
+
+.dapp{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+/*/////////////////////thanks/////////*/
+
+
+
+#thanks{
+    font-family: 'Roboto Slab', serif;
+    height: 30vh;
+    text-align: center;
+    background-color:aquamarine;
+    padding: 30px;
+}
+#thanks h1{
+    margin: 30px;
+}
+.tel a{
+    border: 2px solid black;
+    height: 8vh;
+    width: 10vh;
+    padding: 8px 40px;
+    color: black;
+    text-decoration: none;
+}
+.tel a:hover{
+    color: white;
+    background-color: black;
+}
